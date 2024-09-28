@@ -32,9 +32,10 @@ Partial Class Form2
         '
         'lblDescripcion
         '
-        Me.lblDescripcion.Location = New System.Drawing.Point(52, 47)
+        Me.lblDescripcion.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDescripcion.Location = New System.Drawing.Point(39, 33)
         Me.lblDescripcion.Name = "lblDescripcion"
-        Me.lblDescripcion.Size = New System.Drawing.Size(420, 41)
+        Me.lblDescripcion.Size = New System.Drawing.Size(456, 71)
         Me.lblDescripcion.TabIndex = 0
         Me.lblDescripcion.Text = "Escribe un programa que verifique si un número ingresado es un número perfecto (u" &
     "n número perfecto es igual a la suma de sus divisores propios)."
@@ -42,25 +43,28 @@ Partial Class Form2
         '
         'btnVerificar
         '
-        Me.btnVerificar.Location = New System.Drawing.Point(106, 234)
+        Me.btnVerificar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnVerificar.Location = New System.Drawing.Point(69, 206)
         Me.btnVerificar.Name = "btnVerificar"
-        Me.btnVerificar.Size = New System.Drawing.Size(75, 23)
+        Me.btnVerificar.Size = New System.Drawing.Size(87, 32)
         Me.btnVerificar.TabIndex = 1
         Me.btnVerificar.Text = "Verificar"
         Me.btnVerificar.UseVisualStyleBackColor = True
         '
         'btnMenu
         '
-        Me.btnMenu.Location = New System.Drawing.Point(408, 234)
+        Me.btnMenu.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnMenu.Location = New System.Drawing.Point(375, 206)
         Me.btnMenu.Name = "btnMenu"
-        Me.btnMenu.Size = New System.Drawing.Size(75, 23)
+        Me.btnMenu.Size = New System.Drawing.Size(75, 32)
         Me.btnMenu.TabIndex = 1
         Me.btnMenu.Text = "Menu"
         Me.btnMenu.UseVisualStyleBackColor = True
         '
         'txtNumero
         '
-        Me.txtNumero.Location = New System.Drawing.Point(277, 117)
+        Me.txtNumero.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNumero.Location = New System.Drawing.Point(253, 120)
         Me.txtNumero.Multiline = True
         Me.txtNumero.Name = "txtNumero"
         Me.txtNumero.Size = New System.Drawing.Size(153, 24)
@@ -69,9 +73,10 @@ Partial Class Form2
         'lblTexto
         '
         Me.lblTexto.AutoSize = True
-        Me.lblTexto.Location = New System.Drawing.Point(137, 120)
+        Me.lblTexto.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTexto.Location = New System.Drawing.Point(77, 120)
         Me.lblTexto.Name = "lblTexto"
-        Me.lblTexto.Size = New System.Drawing.Size(95, 13)
+        Me.lblTexto.Size = New System.Drawing.Size(142, 20)
         Me.lblTexto.TabIndex = 0
         Me.lblTexto.Text = "Escriba un numero"
         Me.lblTexto.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -79,16 +84,18 @@ Partial Class Form2
         'txtResultado
         '
         Me.txtResultado.AutoSize = True
-        Me.txtResultado.Location = New System.Drawing.Point(283, 175)
+        Me.txtResultado.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResultado.Location = New System.Drawing.Point(169, 161)
         Me.txtResultado.Name = "txtResultado"
-        Me.txtResultado.Size = New System.Drawing.Size(0, 13)
+        Me.txtResultado.Size = New System.Drawing.Size(0, 20)
         Me.txtResultado.TabIndex = 3
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(628, 325)
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(522, 252)
         Me.Controls.Add(Me.txtResultado)
         Me.Controls.Add(Me.txtNumero)
         Me.Controls.Add(Me.btnMenu)
@@ -96,6 +103,7 @@ Partial Class Form2
         Me.Controls.Add(Me.lblTexto)
         Me.Controls.Add(Me.lblDescripcion)
         Me.Name = "Form2"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"
         Me.ResumeLayout(False)
         Me.PerformLayout()

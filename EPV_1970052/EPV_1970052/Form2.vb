@@ -23,4 +23,10 @@
             txtResultado.Text = "El numero no es perfecto"
         End If
     End Sub
+
+    Private Sub btnMenu_Click(sender As Object, e As EventArgs) Handles btnMenu.Click
+        Form1.Show()
+        Me.Close()
+    End Sub
+
 End Class

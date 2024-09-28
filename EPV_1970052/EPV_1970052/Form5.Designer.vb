@@ -22,77 +22,82 @@ Partial Class Form5
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.lblTexto = New System.Windows.Forms.Label()
+        Me.lblFalta = New System.Windows.Forms.Label()
+        Me.txtHora = New System.Windows.Forms.TextBox()
+        Me.lblHora = New System.Windows.Forms.Label()
+        Me.btnMenu = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Label1
+        'lblTexto
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(21, 22)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(612, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Cálculo del tiempo restante: Solicita una hora del día en formato de 24 horas y m" &
+        Me.lblTexto.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTexto.Location = New System.Drawing.Point(21, 21)
+        Me.lblTexto.Name = "lblTexto"
+        Me.lblTexto.Size = New System.Drawing.Size(489, 52)
+        Me.lblTexto.TabIndex = 0
+        Me.lblTexto.Text = "Cálculo del tiempo restante: Solicita una hora del día en formato de 24 horas y m" &
     "uestra cuánto tiempo falta hasta la medianoche."
         '
-        'Label2
+        'lblFalta
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(276, 133)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(42, 13)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Faltan: "
+        Me.lblFalta.AutoSize = True
+        Me.lblFalta.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFalta.Location = New System.Drawing.Point(158, 130)
+        Me.lblFalta.Name = "lblFalta"
+        Me.lblFalta.Size = New System.Drawing.Size(0, 20)
+        Me.lblFalta.TabIndex = 1
         '
-        'TextBox1
+        'txtHora
         '
-        Me.TextBox1.Location = New System.Drawing.Point(279, 93)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(208, 20)
-        Me.TextBox1.TabIndex = 2
+        Me.txtHora.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHora.Location = New System.Drawing.Point(241, 90)
+        Me.txtHora.Name = "txtHora"
+        Me.txtHora.Size = New System.Drawing.Size(208, 26)
+        Me.txtHora.TabIndex = 2
         '
-        'Label3
+        'lblHora
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(157, 96)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(116, 13)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Ingresa la hora del día:"
+        Me.lblHora.AutoSize = True
+        Me.lblHora.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHora.Location = New System.Drawing.Point(66, 93)
+        Me.lblHora.Name = "lblHora"
+        Me.lblHora.Size = New System.Drawing.Size(169, 20)
+        Me.lblHora.TabIndex = 3
+        Me.lblHora.Text = "Ingresa la hora del día:"
         '
-        'Button1
+        'btnMenu
         '
-        Me.Button1.Location = New System.Drawing.Point(435, 191)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Menu"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnMenu.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMenu.Location = New System.Drawing.Point(435, 186)
+        Me.btnMenu.Name = "btnMenu"
+        Me.btnMenu.Size = New System.Drawing.Size(75, 28)
+        Me.btnMenu.TabIndex = 4
+        Me.btnMenu.Text = "Menu"
+        Me.btnMenu.UseVisualStyleBackColor = True
         '
         'Form5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(647, 226)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(535, 226)
+        Me.Controls.Add(Me.btnMenu)
+        Me.Controls.Add(Me.lblHora)
+        Me.Controls.Add(Me.txtHora)
+        Me.Controls.Add(Me.lblFalta)
+        Me.Controls.Add(Me.lblTexto)
         Me.Name = "Form5"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form5"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents lblTexto As Label
+    Friend WithEvents lblFalta As Label
+    Friend WithEvents txtHora As TextBox
+    Friend WithEvents lblHora As Label
+    Friend WithEvents btnMenu As Button
 End Class

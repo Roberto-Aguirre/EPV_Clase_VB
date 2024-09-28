@@ -92,8 +92,8 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Green
         Me.Label1.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label1.Location = New System.Drawing.Point(86, 157)
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label1.Location = New System.Drawing.Point(36, 169)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(350, 22)
         Me.Label1.TabIndex = 1
@@ -105,7 +105,7 @@ Partial Class Form1
         Me.Label2.BackColor = System.Drawing.Color.Green
         Me.Label2.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label2.Location = New System.Drawing.Point(219, 86)
+        Me.Label2.Location = New System.Drawing.Point(205, 97)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(204, 22)
         Me.Label2.TabIndex = 1
@@ -116,8 +116,8 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Green
         Me.Label3.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label3.Location = New System.Drawing.Point(86, 227)
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label3.Location = New System.Drawing.Point(36, 239)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(81, 22)
         Me.Label3.TabIndex = 1
@@ -128,8 +128,8 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Green
         Me.Label4.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label4.Location = New System.Drawing.Point(86, 262)
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label4.Location = New System.Drawing.Point(36, 274)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(107, 22)
         Me.Label4.TabIndex = 1
@@ -141,7 +141,7 @@ Partial Class Form1
         Me.Label5.BackColor = System.Drawing.Color.Green
         Me.Label5.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label5.Location = New System.Drawing.Point(129, 53)
+        Me.Label5.Location = New System.Drawing.Point(121, 63)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(411, 22)
         Me.Label5.TabIndex = 1
@@ -152,8 +152,8 @@ Partial Class Form1
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Green
         Me.Label6.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label6.Location = New System.Drawing.Point(86, 191)
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label6.Location = New System.Drawing.Point(36, 203)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(185, 22)
         Me.Label6.TabIndex = 1
@@ -164,8 +164,8 @@ Partial Class Form1
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Green
         Me.Label7.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label7.Location = New System.Drawing.Point(86, 121)
+        Me.Label7.ForeColor = System.Drawing.Color.White
+        Me.Label7.Location = New System.Drawing.Point(36, 133)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(340, 22)
         Me.Label7.TabIndex = 1
@@ -198,6 +198,7 @@ Partial Class Form1
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()

@@ -22,86 +22,111 @@ Partial Class Form7
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form7))
+        Me.tboxUsuario = New System.Windows.Forms.TextBox()
+        Me.tboxContraseña = New System.Windows.Forms.TextBox()
+        Me.lblUsuario = New System.Windows.Forms.Label()
+        Me.lblContraseña = New System.Windows.Forms.Label()
+        Me.btnLogin = New System.Windows.Forms.Button()
+        Me.btnSalir = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'tboxUsuario
         '
-        Me.TextBox1.Location = New System.Drawing.Point(149, 58)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(234, 20)
-        Me.TextBox1.TabIndex = 0
+        Me.tboxUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tboxUsuario.Location = New System.Drawing.Point(263, 56)
+        Me.tboxUsuario.Name = "tboxUsuario"
+        Me.tboxUsuario.Size = New System.Drawing.Size(234, 26)
+        Me.tboxUsuario.TabIndex = 0
         '
-        'TextBox2
+        'tboxContraseña
         '
-        Me.TextBox2.Location = New System.Drawing.Point(149, 110)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(234, 20)
-        Me.TextBox2.TabIndex = 0
+        Me.tboxContraseña.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tboxContraseña.Location = New System.Drawing.Point(263, 108)
+        Me.tboxContraseña.Name = "tboxContraseña"
+        Me.tboxContraseña.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.tboxContraseña.Size = New System.Drawing.Size(234, 26)
+        Me.tboxContraseña.TabIndex = 0
         '
-        'Label1
+        'lblUsuario
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(60, 61)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(43, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Usuario"
+        Me.lblUsuario.AutoSize = True
+        Me.lblUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblUsuario.Location = New System.Drawing.Point(165, 59)
+        Me.lblUsuario.Name = "lblUsuario"
+        Me.lblUsuario.Size = New System.Drawing.Size(64, 20)
+        Me.lblUsuario.TabIndex = 1
+        Me.lblUsuario.Text = "Usuario"
         '
-        'Label2
+        'lblContraseña
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(60, 113)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(61, 13)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Contraseña"
+        Me.lblContraseña.AutoSize = True
+        Me.lblContraseña.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblContraseña.Location = New System.Drawing.Point(156, 111)
+        Me.lblContraseña.Name = "lblContraseña"
+        Me.lblContraseña.Size = New System.Drawing.Size(92, 20)
+        Me.lblContraseña.TabIndex = 1
+        Me.lblContraseña.Text = "Contraseña"
         '
-        'Button1
+        'btnLogin
         '
-        Me.Button1.Location = New System.Drawing.Point(96, 162)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Entrar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogin.Location = New System.Drawing.Point(263, 160)
+        Me.btnLogin.Name = "btnLogin"
+        Me.btnLogin.Size = New System.Drawing.Size(75, 31)
+        Me.btnLogin.TabIndex = 2
+        Me.btnLogin.Text = "Entrar"
+        Me.btnLogin.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnSalir
         '
-        Me.Button2.Location = New System.Drawing.Point(253, 162)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Salir"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnSalir.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSalir.Location = New System.Drawing.Point(422, 160)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(75, 31)
+        Me.btnSalir.TabIndex = 2
+        Me.btnSalir.Text = "Salir"
+        Me.btnSalir.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 43)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(138, 128)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 3
+        Me.PictureBox1.TabStop = False
         '
         'Form7
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(445, 215)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(527, 215)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.btnSalir)
+        Me.Controls.Add(Me.btnLogin)
+        Me.Controls.Add(Me.lblContraseña)
+        Me.Controls.Add(Me.lblUsuario)
+        Me.Controls.Add(Me.tboxContraseña)
+        Me.Controls.Add(Me.tboxUsuario)
         Me.Name = "Form7"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form7"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents tboxUsuario As TextBox
+    Friend WithEvents tboxContraseña As TextBox
+    Friend WithEvents lblUsuario As Label
+    Friend WithEvents lblContraseña As Label
+    Friend WithEvents btnLogin As Button
+    Friend WithEvents btnSalir As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

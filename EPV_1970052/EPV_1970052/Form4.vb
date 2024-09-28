@@ -5,12 +5,11 @@
             Dim inicio, fin As Integer
             Dim aux = numeroIngresado.ToString()
             Dim esCapi = True
-            inicio = 1
-            fin = Len(aux)
-
+            inicio = 0
+            fin = Len(aux) - 1
             While esCapi And (inicio < fin)
-                Console.Write(Mid(aux, inicio) & " " & Mid(aux, fin) & vbCrLf)
-                If Mid(aux, inicio) = Mid(aux, fin) Then
+                'Console.Write(Mid(aux,) & " " & Mid(aux, fin) & vbCrLf)
+                If aux(inicio) = aux(fin) Then
                     inicio += 1
                     fin -= 1
                 Else
@@ -24,5 +23,10 @@
                 lblResultado.Text = "No numero Capicua"
             End If
         End If
+    End Sub
+
+    Private Sub btnMenu_Click(sender As Object, e As EventArgs) Handles btnMenu.Click
+        Form1.Show()
+        Me.Close()
     End Sub
 End Class
