@@ -87,6 +87,7 @@ Partial Class Form3
         Me.cboxInicial.AutoCompleteCustomSource.AddRange(New String() {"Celsius ", "Fahrenheit", "Kelvin"})
         Me.cboxInicial.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
         Me.cboxInicial.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
+        Me.cboxInicial.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboxInicial.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboxInicial.FormattingEnabled = True
         Me.cboxInicial.Items.AddRange(New Object() {"Celsius", "Fahrenheit", "Kelvin"})
@@ -94,7 +95,6 @@ Partial Class Form3
         Me.cboxInicial.Name = "cboxInicial"
         Me.cboxInicial.Size = New System.Drawing.Size(121, 28)
         Me.cboxInicial.TabIndex = 5
-        Me.cboxInicial.Text = "Celsius"
         '
         'Label5
         '
@@ -118,14 +118,15 @@ Partial Class Form3
         'cboxFinal
         '
         Me.cboxFinal.AutoCompleteCustomSource.AddRange(New String() {"Celsius ", "Fahrenheit", "Kelvin"})
+        Me.cboxFinal.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboxFinal.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboxFinal.FormattingEnabled = True
+        Me.cboxFinal.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.cboxFinal.Items.AddRange(New Object() {"Celsius", "Fahrenheit", "Kelvin"})
         Me.cboxFinal.Location = New System.Drawing.Point(336, 159)
         Me.cboxFinal.Name = "cboxFinal"
         Me.cboxFinal.Size = New System.Drawing.Size(121, 28)
         Me.cboxFinal.TabIndex = 5
-        Me.cboxFinal.Text = "Celsius"
         '
         'btnMenu
         '

@@ -7,7 +7,6 @@
             MsgBox("Acceso denegado")
         End If
     End Sub
-
     Private Sub Form7_Load(sender As Object, e As EventArgs) Handles MyBase.Shown
         tboxUsuario.Text = ""
         tboxContraseña.Text = ""

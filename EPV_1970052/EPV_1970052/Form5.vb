@@ -13,7 +13,7 @@
                     lblFalta.Text = "Faltan " & horasFaltantes & " horas para medianoche"
                 End If
             Else
-                lblFalta.Text = "No se pueden agregar valores menores que 0 o mayores de 24 horas"
+                lblFalta.Text = "No valores menores que 0 o mayores de 24 horas"
             End If
         Else
             lblFalta.Text = "Valor no reconocible"

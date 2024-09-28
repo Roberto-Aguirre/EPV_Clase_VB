@@ -13,14 +13,11 @@
         End If
     End Sub
     Private Function verificarNumero(numero) As Boolean
-
         If serie.Contains(numero) Then
-                Return True
-            Else
-                Return False
-            End If
-
-
+            Return True
+        Else
+            Return False
+        End If
     End Function
     Private Function serieFiboacci() As List(Of Integer)
         Dim fibonacci As New List(Of Integer)
