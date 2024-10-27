@@ -16,3 +16,26 @@ C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Medio Curso\EPV_19
 C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Medio Curso\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form5.resources
 C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Medio Curso\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form6.resources
 C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Medio Curso\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form7.resources
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\bin\Debug\EPV_1970052.exe.config
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\bin\Debug\EPV_1970052.exe
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\bin\Debug\EPV_1970052.pdb
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\bin\Debug\EPV_1970052.xml
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.vbproj.AssemblyReference.cache
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form1.resources
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form10.resources
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form11.resources
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form12.resources
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form2.resources
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form3.resources
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form4.resources
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form5.resources
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form6.resources
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form7.resources
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form8.resources
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Form9.resources
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.Resources.resources
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.vbproj.GenerateResource.cache
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.vbproj.CoreCompileInputs.cache
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.exe
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.xml
+C:\Users\Ivan Aguirre\OneDrive\9 - Noveno\PROGRAMACION VISUAL\Ordinario\EPV_1970052\EPV_1970052\obj\Debug\EPV_1970052.pdb

@@ -48,7 +48,7 @@ Partial Class Form7
         Me.tboxContraseña.Name = "tboxContraseña"
         Me.tboxContraseña.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.tboxContraseña.Size = New System.Drawing.Size(234, 26)
-        Me.tboxContraseña.TabIndex = 0
+        Me.tboxContraseña.TabIndex = 1
         '
         'lblUsuario
         '
@@ -86,7 +86,7 @@ Partial Class Form7
         Me.btnSalir.Location = New System.Drawing.Point(422, 160)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(75, 31)
-        Me.btnSalir.TabIndex = 2
+        Me.btnSalir.TabIndex = 3
         Me.btnSalir.Text = "Salir"
         Me.btnSalir.UseVisualStyleBackColor = True
         '

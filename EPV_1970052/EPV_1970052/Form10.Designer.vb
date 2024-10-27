@@ -24,8 +24,10 @@ Partial Class Form10
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.lblNumero = New System.Windows.Forms.Label()
-        Me.txtNumero = New System.Windows.Forms.TextBox()
+        Me.txtCorreo = New System.Windows.Forms.TextBox()
         Me.lblText = New System.Windows.Forms.Label()
+        Me.btnVerificar = New System.Windows.Forms.Button()
+        Me.lblResultado = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
@@ -42,38 +44,59 @@ Partial Class Form10
         '
         Me.lblNumero.AutoSize = True
         Me.lblNumero.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNumero.Location = New System.Drawing.Point(149, 135)
+        Me.lblNumero.Location = New System.Drawing.Point(36, 98)
         Me.lblNumero.Name = "lblNumero"
-        Me.lblNumero.Size = New System.Drawing.Size(143, 20)
+        Me.lblNumero.Size = New System.Drawing.Size(136, 20)
         Me.lblNumero.TabIndex = 12
-        Me.lblNumero.Text = "Ingresa un numero"
+        Me.lblNumero.Text = "Ingresa el correo: "
         '
-        'txtNumero
+        'txtCorreo
         '
-        Me.txtNumero.Location = New System.Drawing.Point(298, 137)
-        Me.txtNumero.Name = "txtNumero"
-        Me.txtNumero.Size = New System.Drawing.Size(196, 20)
-        Me.txtNumero.TabIndex = 11
+        Me.txtCorreo.Location = New System.Drawing.Point(178, 100)
+        Me.txtCorreo.Name = "txtCorreo"
+        Me.txtCorreo.Size = New System.Drawing.Size(374, 20)
+        Me.txtCorreo.TabIndex = 11
         '
         'lblText
         '
         Me.lblText.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblText.Location = New System.Drawing.Point(52, 34)
+        Me.lblText.Location = New System.Drawing.Point(42, 18)
         Me.lblText.Name = "lblText"
-        Me.lblText.Size = New System.Drawing.Size(510, 100)
+        Me.lblText.Size = New System.Drawing.Size(510, 67)
         Me.lblText.TabIndex = 10
         Me.lblText.Text = "Crea un programa que solicite un correo electronico y valide si esta correctament" &
     "e formateado, es decir, que contenga un simbolo '@' y un dominio (por ejemplo ""." &
     "com"")"
+        '
+        'btnVerificar
+        '
+        Me.btnVerificar.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnVerificar.Location = New System.Drawing.Point(83, 180)
+        Me.btnVerificar.Name = "btnVerificar"
+        Me.btnVerificar.Size = New System.Drawing.Size(89, 35)
+        Me.btnVerificar.TabIndex = 15
+        Me.btnVerificar.Text = "Verificar"
+        Me.btnVerificar.UseVisualStyleBackColor = True
+        '
+        'lblResultado
+        '
+        Me.lblResultado.AutoSize = True
+        Me.lblResultado.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.lblResultado.Location = New System.Drawing.Point(224, 141)
+        Me.lblResultado.Name = "lblResultado"
+        Me.lblResultado.Size = New System.Drawing.Size(0, 18)
+        Me.lblResultado.TabIndex = 19
         '
         'Form10
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(584, 246)
+        Me.Controls.Add(Me.lblResultado)
+        Me.Controls.Add(Me.btnVerificar)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lblNumero)
-        Me.Controls.Add(Me.txtNumero)
+        Me.Controls.Add(Me.txtCorreo)
         Me.Controls.Add(Me.lblText)
         Me.Name = "Form10"
         Me.Text = "Form10"
@@ -84,6 +107,8 @@ Partial Class Form10
 
     Friend WithEvents Button1 As Button
     Friend WithEvents lblNumero As Label
-    Friend WithEvents txtNumero As TextBox
+    Friend WithEvents txtCorreo As TextBox
     Friend WithEvents lblText As Label
+    Friend WithEvents btnVerificar As Button
+    Friend WithEvents lblResultado As Label
 End Class

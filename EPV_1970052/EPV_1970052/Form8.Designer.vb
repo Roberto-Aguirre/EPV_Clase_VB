@@ -22,38 +22,40 @@ Partial Class Form8
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnMenu = New System.Windows.Forms.Button()
         Me.lblNumero = New System.Windows.Forms.Label()
         Me.txtNumero = New System.Windows.Forms.TextBox()
         Me.lblText = New System.Windows.Forms.Label()
+        Me.btnVerificar = New System.Windows.Forms.Button()
+        Me.lblResultado = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnMenu
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(524, 170)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(89, 35)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Menu"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnMenu.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMenu.Location = New System.Drawing.Point(472, 158)
+        Me.btnMenu.Name = "btnMenu"
+        Me.btnMenu.Size = New System.Drawing.Size(89, 35)
+        Me.btnMenu.TabIndex = 3
+        Me.btnMenu.Text = "Menu"
+        Me.btnMenu.UseVisualStyleBackColor = True
         '
         'lblNumero
         '
         Me.lblNumero.AutoSize = True
         Me.lblNumero.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNumero.Location = New System.Drawing.Point(51, 84)
+        Me.lblNumero.Location = New System.Drawing.Point(84, 86)
         Me.lblNumero.Name = "lblNumero"
-        Me.lblNumero.Size = New System.Drawing.Size(143, 20)
+        Me.lblNumero.Size = New System.Drawing.Size(110, 20)
         Me.lblNumero.TabIndex = 8
-        Me.lblNumero.Text = "Ingresa un numero"
+        Me.lblNumero.Text = "Ingresa el año"
         '
         'txtNumero
         '
         Me.txtNumero.Location = New System.Drawing.Point(200, 86)
         Me.txtNumero.Name = "txtNumero"
-        Me.txtNumero.Size = New System.Drawing.Size(196, 20)
-        Me.txtNumero.TabIndex = 7
+        Me.txtNumero.Size = New System.Drawing.Size(224, 20)
+        Me.txtNumero.TabIndex = 1
         '
         'lblText
         '
@@ -63,14 +65,35 @@ Partial Class Form8
         Me.lblText.Size = New System.Drawing.Size(510, 58)
         Me.lblText.TabIndex = 6
         Me.lblText.Text = "Escribe un programa que determine si un año ingresado es bisiesto o no, utilizand" &
-    "o la formula correcta para años divisibles enre 4, 100 y 400"
+    "o la formula correcta para años divisibles entre 4, 100 y 400"
+        '
+        'btnVerificar
+        '
+        Me.btnVerificar.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnVerificar.Location = New System.Drawing.Point(73, 158)
+        Me.btnVerificar.Name = "btnVerificar"
+        Me.btnVerificar.Size = New System.Drawing.Size(89, 35)
+        Me.btnVerificar.TabIndex = 2
+        Me.btnVerificar.Text = "Verificar"
+        Me.btnVerificar.UseVisualStyleBackColor = True
+        '
+        'lblResultado
+        '
+        Me.lblResultado.AutoSize = True
+        Me.lblResultado.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.lblResultado.Location = New System.Drawing.Point(267, 124)
+        Me.lblResultado.Name = "lblResultado"
+        Me.lblResultado.Size = New System.Drawing.Size(0, 18)
+        Me.lblResultado.TabIndex = 11
         '
         'Form8
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(633, 222)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(597, 222)
+        Me.Controls.Add(Me.lblResultado)
+        Me.Controls.Add(Me.btnVerificar)
+        Me.Controls.Add(Me.btnMenu)
         Me.Controls.Add(Me.lblNumero)
         Me.Controls.Add(Me.txtNumero)
         Me.Controls.Add(Me.lblText)
@@ -80,8 +103,10 @@ Partial Class Form8
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnMenu As Button
     Friend WithEvents lblNumero As Label
     Friend WithEvents txtNumero As TextBox
     Friend WithEvents lblText As Label
+    Friend WithEvents btnVerificar As Button
+    Friend WithEvents lblResultado As Label
 End Class

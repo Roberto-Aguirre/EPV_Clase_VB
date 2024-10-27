@@ -24,8 +24,13 @@ Partial Class Form11
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.lblNumero = New System.Windows.Forms.Label()
-        Me.txtNumero = New System.Windows.Forms.TextBox()
+        Me.txtCapital = New System.Windows.Forms.TextBox()
         Me.lblText = New System.Windows.Forms.Label()
+        Me.btnVerificar = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.txtInteres = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txtTiempo = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Button1
@@ -42,18 +47,18 @@ Partial Class Form11
         '
         Me.lblNumero.AutoSize = True
         Me.lblNumero.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNumero.Location = New System.Drawing.Point(156, 105)
+        Me.lblNumero.Location = New System.Drawing.Point(152, 82)
         Me.lblNumero.Name = "lblNumero"
-        Me.lblNumero.Size = New System.Drawing.Size(143, 20)
+        Me.lblNumero.Size = New System.Drawing.Size(123, 20)
         Me.lblNumero.TabIndex = 12
-        Me.lblNumero.Text = "Ingresa un numero"
+        Me.lblNumero.Text = "Capital inicial ($)"
         '
-        'txtNumero
+        'txtCapital
         '
-        Me.txtNumero.Location = New System.Drawing.Point(305, 107)
-        Me.txtNumero.Name = "txtNumero"
-        Me.txtNumero.Size = New System.Drawing.Size(196, 20)
-        Me.txtNumero.TabIndex = 11
+        Me.txtCapital.Location = New System.Drawing.Point(281, 84)
+        Me.txtCapital.Name = "txtCapital"
+        Me.txtCapital.Size = New System.Drawing.Size(196, 20)
+        Me.txtCapital.TabIndex = 11
         '
         'lblText
         '
@@ -63,17 +68,66 @@ Partial Class Form11
         Me.lblText.Size = New System.Drawing.Size(613, 58)
         Me.lblText.TabIndex = 10
         Me.lblText.Text = "Solicita el capital inicial, la tasa de interes y el tiempo para calcular el valo" &
-    "r fnal usando la formula del interes compuesto y valida si la tasa es positiva o" &
-    " negativa."
+    "r final usando la formula del interes compuesto y valida si la tasa es positiva " &
+    "o negativa."
+        '
+        'btnVerificar
+        '
+        Me.btnVerificar.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnVerificar.Location = New System.Drawing.Point(78, 181)
+        Me.btnVerificar.Name = "btnVerificar"
+        Me.btnVerificar.Size = New System.Drawing.Size(89, 35)
+        Me.btnVerificar.TabIndex = 17
+        Me.btnVerificar.Text = "Verificar"
+        Me.btnVerificar.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(86, 108)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(189, 20)
+        Me.Label1.TabIndex = 19
+        Me.Label1.Text = "Tasa de interes (% anual)"
+        '
+        'txtInteres
+        '
+        Me.txtInteres.Location = New System.Drawing.Point(281, 110)
+        Me.txtInteres.Name = "txtInteres"
+        Me.txtInteres.Size = New System.Drawing.Size(196, 20)
+        Me.txtInteres.TabIndex = 18
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(153, 134)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(122, 20)
+        Me.Label2.TabIndex = 21
+        Me.Label2.Text = "Tiempo (meses)"
+        '
+        'txtTiempo
+        '
+        Me.txtTiempo.Location = New System.Drawing.Point(281, 136)
+        Me.txtTiempo.Name = "txtTiempo"
+        Me.txtTiempo.Size = New System.Drawing.Size(196, 20)
+        Me.txtTiempo.TabIndex = 20
         '
         'Form11
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(673, 247)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.txtTiempo)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.txtInteres)
+        Me.Controls.Add(Me.btnVerificar)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lblNumero)
-        Me.Controls.Add(Me.txtNumero)
+        Me.Controls.Add(Me.txtCapital)
         Me.Controls.Add(Me.lblText)
         Me.Name = "Form11"
         Me.Text = "Form11"
@@ -84,6 +138,11 @@ Partial Class Form11
 
     Friend WithEvents Button1 As Button
     Friend WithEvents lblNumero As Label
-    Friend WithEvents txtNumero As TextBox
+    Friend WithEvents txtCapital As TextBox
     Friend WithEvents lblText As Label
+    Friend WithEvents btnVerificar As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents txtInteres As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents txtTiempo As TextBox
 End Class
