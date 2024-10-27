@@ -29,6 +29,12 @@ Partial Class Form1
         Me.NumeroCapicúaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CálculoDeTiempoRestanteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NumeroEnSecuenciaFibonacciToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExamenOrdinarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CalculoAñoBisiestoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CalculoDeIMCToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ValidarCorreoElectronicoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CalculoDeInteresCompuestoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContraseñaSeguraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -42,7 +48,7 @@ Partial Class Form1
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExamenMedioCursoToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExamenMedioCursoToolStripMenuItem, Me.ExamenOrdinarioToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(621, 27)
@@ -86,6 +92,49 @@ Partial Class Form1
         Me.NumeroEnSecuenciaFibonacciToolStripMenuItem.Name = "NumeroEnSecuenciaFibonacciToolStripMenuItem"
         Me.NumeroEnSecuenciaFibonacciToolStripMenuItem.Size = New System.Drawing.Size(309, 24)
         Me.NumeroEnSecuenciaFibonacciToolStripMenuItem.Text = "Numero en secuencia Fibonacci"
+        '
+        'ExamenOrdinarioToolStripMenuItem
+        '
+        Me.ExamenOrdinarioToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CalculoAñoBisiestoToolStripMenuItem, Me.CalculoDeIMCToolStripMenuItem, Me.ValidarCorreoElectronicoToolStripMenuItem, Me.CalculoDeInteresCompuestoToolStripMenuItem, Me.ContraseñaSeguraToolStripMenuItem})
+        Me.ExamenOrdinarioToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.ExamenOrdinarioToolStripMenuItem.Name = "ExamenOrdinarioToolStripMenuItem"
+        Me.ExamenOrdinarioToolStripMenuItem.Size = New System.Drawing.Size(133, 23)
+        Me.ExamenOrdinarioToolStripMenuItem.Text = "Examen Ordinario"
+        '
+        'CalculoAñoBisiestoToolStripMenuItem
+        '
+        Me.CalculoAñoBisiestoToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.CalculoAñoBisiestoToolStripMenuItem.Name = "CalculoAñoBisiestoToolStripMenuItem"
+        Me.CalculoAñoBisiestoToolStripMenuItem.Size = New System.Drawing.Size(263, 24)
+        Me.CalculoAñoBisiestoToolStripMenuItem.Text = "Calculo año bisiesto"
+        '
+        'CalculoDeIMCToolStripMenuItem
+        '
+        Me.CalculoDeIMCToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.CalculoDeIMCToolStripMenuItem.Name = "CalculoDeIMCToolStripMenuItem"
+        Me.CalculoDeIMCToolStripMenuItem.Size = New System.Drawing.Size(263, 24)
+        Me.CalculoDeIMCToolStripMenuItem.Text = "Calculo de IMC"
+        '
+        'ValidarCorreoElectronicoToolStripMenuItem
+        '
+        Me.ValidarCorreoElectronicoToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.ValidarCorreoElectronicoToolStripMenuItem.Name = "ValidarCorreoElectronicoToolStripMenuItem"
+        Me.ValidarCorreoElectronicoToolStripMenuItem.Size = New System.Drawing.Size(263, 24)
+        Me.ValidarCorreoElectronicoToolStripMenuItem.Text = "Validar correo electronico"
+        '
+        'CalculoDeInteresCompuestoToolStripMenuItem
+        '
+        Me.CalculoDeInteresCompuestoToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.CalculoDeInteresCompuestoToolStripMenuItem.Name = "CalculoDeInteresCompuestoToolStripMenuItem"
+        Me.CalculoDeInteresCompuestoToolStripMenuItem.Size = New System.Drawing.Size(263, 24)
+        Me.CalculoDeInteresCompuestoToolStripMenuItem.Text = "Calculo de interes compuesto"
+        '
+        'ContraseñaSeguraToolStripMenuItem
+        '
+        Me.ContraseñaSeguraToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.ContraseñaSeguraToolStripMenuItem.Name = "ContraseñaSeguraToolStripMenuItem"
+        Me.ContraseñaSeguraToolStripMenuItem.Size = New System.Drawing.Size(263, 24)
+        Me.ContraseñaSeguraToolStripMenuItem.Text = "Contraseña segura"
         '
         'Label1
         '
@@ -222,4 +271,10 @@ Partial Class Form1
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents btnSalir As Button
+    Friend WithEvents ExamenOrdinarioToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CalculoAñoBisiestoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CalculoDeIMCToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ValidarCorreoElectronicoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CalculoDeInteresCompuestoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ContraseñaSeguraToolStripMenuItem As ToolStripMenuItem
 End Class

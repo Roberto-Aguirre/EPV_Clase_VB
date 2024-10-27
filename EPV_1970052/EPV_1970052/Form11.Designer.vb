@@ -31,6 +31,8 @@ Partial Class Form11
         Me.txtInteres = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtTiempo = New System.Windows.Forms.TextBox()
+        Me.lblTasa = New System.Windows.Forms.Label()
+        Me.lblTotal = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
@@ -102,11 +104,11 @@ Partial Class Form11
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(153, 134)
+        Me.Label2.Location = New System.Drawing.Point(165, 136)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(122, 20)
+        Me.Label2.Size = New System.Drawing.Size(110, 20)
         Me.Label2.TabIndex = 21
-        Me.Label2.Text = "Tiempo (meses)"
+        Me.Label2.Text = "Tiempo (años)"
         '
         'txtTiempo
         '
@@ -115,11 +117,31 @@ Partial Class Form11
         Me.txtTiempo.Size = New System.Drawing.Size(196, 20)
         Me.txtTiempo.TabIndex = 20
         '
+        'lblTasa
+        '
+        Me.lblTasa.AutoSize = True
+        Me.lblTasa.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.lblTasa.Location = New System.Drawing.Point(227, 181)
+        Me.lblTasa.Name = "lblTasa"
+        Me.lblTasa.Size = New System.Drawing.Size(0, 18)
+        Me.lblTasa.TabIndex = 22
+        '
+        'lblTotal
+        '
+        Me.lblTotal.AutoSize = True
+        Me.lblTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.lblTotal.Location = New System.Drawing.Point(227, 203)
+        Me.lblTotal.Name = "lblTotal"
+        Me.lblTotal.Size = New System.Drawing.Size(0, 18)
+        Me.lblTotal.TabIndex = 23
+        '
         'Form11
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(673, 247)
+        Me.Controls.Add(Me.lblTotal)
+        Me.Controls.Add(Me.lblTasa)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtTiempo)
         Me.Controls.Add(Me.Label1)
@@ -145,4 +167,6 @@ Partial Class Form11
     Friend WithEvents txtInteres As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents txtTiempo As TextBox
+    Friend WithEvents lblTasa As Label
+    Friend WithEvents lblTotal As Label
 End Class

@@ -28,4 +28,29 @@
         Form7.Show()
         Me.Close()
     End Sub
+
+    Private Sub CalculoAñoBisiestoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalculoAñoBisiestoToolStripMenuItem.Click
+        Form8.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub CalculoDeIMCToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalculoDeIMCToolStripMenuItem.Click
+        Form9.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub ValidarCorreoElectronicoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ValidarCorreoElectronicoToolStripMenuItem.Click
+        Form10.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub CalculoDeInteresCompuestoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalculoDeInteresCompuestoToolStripMenuItem.Click
+        Form11.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub ContraseñaSeguraToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ContraseñaSeguraToolStripMenuItem.Click
+        Form12.Show()
+        Me.Close()
+    End Sub
 End Class
