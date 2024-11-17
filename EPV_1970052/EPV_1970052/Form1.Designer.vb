@@ -35,6 +35,12 @@ Partial Class Form1
         Me.ValidarCorreoElectronicoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CalculoDeInteresCompuestoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContraseñaSeguraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PIAToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CalculadoraCientíficaAvanzadaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConversiónDeSistemasNuméricosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SimuladorDeSemáforoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SistemaDeClasificaciónDeEdadToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CalculadoraDeSalarioConBonificacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -48,7 +54,7 @@ Partial Class Form1
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExamenMedioCursoToolStripMenuItem, Me.ExamenOrdinarioToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExamenMedioCursoToolStripMenuItem, Me.ExamenOrdinarioToolStripMenuItem, Me.PIAToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(621, 27)
@@ -135,6 +141,44 @@ Partial Class Form1
         Me.ContraseñaSeguraToolStripMenuItem.Name = "ContraseñaSeguraToolStripMenuItem"
         Me.ContraseñaSeguraToolStripMenuItem.Size = New System.Drawing.Size(263, 24)
         Me.ContraseñaSeguraToolStripMenuItem.Text = "Contraseña segura"
+        '
+        'PIAToolStripMenuItem
+        '
+        Me.PIAToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CalculadoraCientíficaAvanzadaToolStripMenuItem, Me.ConversiónDeSistemasNuméricosToolStripMenuItem, Me.SimuladorDeSemáforoToolStripMenuItem, Me.SistemaDeClasificaciónDeEdadToolStripMenuItem, Me.CalculadoraDeSalarioConBonificacionesToolStripMenuItem})
+        Me.PIAToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.PIAToolStripMenuItem.Name = "PIAToolStripMenuItem"
+        Me.PIAToolStripMenuItem.Size = New System.Drawing.Size(42, 23)
+        Me.PIAToolStripMenuItem.Text = "PIA"
+        '
+        'CalculadoraCientíficaAvanzadaToolStripMenuItem
+        '
+        Me.CalculadoraCientíficaAvanzadaToolStripMenuItem.Name = "CalculadoraCientíficaAvanzadaToolStripMenuItem"
+        Me.CalculadoraCientíficaAvanzadaToolStripMenuItem.Size = New System.Drawing.Size(338, 24)
+        Me.CalculadoraCientíficaAvanzadaToolStripMenuItem.Text = "Calculadora científica avanzada"
+        '
+        'ConversiónDeSistemasNuméricosToolStripMenuItem
+        '
+        Me.ConversiónDeSistemasNuméricosToolStripMenuItem.Name = "ConversiónDeSistemasNuméricosToolStripMenuItem"
+        Me.ConversiónDeSistemasNuméricosToolStripMenuItem.Size = New System.Drawing.Size(338, 24)
+        Me.ConversiónDeSistemasNuméricosToolStripMenuItem.Text = "Conversión de sistemas numéricos"
+        '
+        'SimuladorDeSemáforoToolStripMenuItem
+        '
+        Me.SimuladorDeSemáforoToolStripMenuItem.Name = "SimuladorDeSemáforoToolStripMenuItem"
+        Me.SimuladorDeSemáforoToolStripMenuItem.Size = New System.Drawing.Size(338, 24)
+        Me.SimuladorDeSemáforoToolStripMenuItem.Text = "Simulador de semáforo"
+        '
+        'SistemaDeClasificaciónDeEdadToolStripMenuItem
+        '
+        Me.SistemaDeClasificaciónDeEdadToolStripMenuItem.Name = "SistemaDeClasificaciónDeEdadToolStripMenuItem"
+        Me.SistemaDeClasificaciónDeEdadToolStripMenuItem.Size = New System.Drawing.Size(338, 24)
+        Me.SistemaDeClasificaciónDeEdadToolStripMenuItem.Text = "Sistema de clasificación de edad"
+        '
+        'CalculadoraDeSalarioConBonificacionesToolStripMenuItem
+        '
+        Me.CalculadoraDeSalarioConBonificacionesToolStripMenuItem.Name = "CalculadoraDeSalarioConBonificacionesToolStripMenuItem"
+        Me.CalculadoraDeSalarioConBonificacionesToolStripMenuItem.Size = New System.Drawing.Size(338, 24)
+        Me.CalculadoraDeSalarioConBonificacionesToolStripMenuItem.Text = "Calculadora de salario con bonificaciones"
         '
         'Label1
         '
@@ -277,4 +321,10 @@ Partial Class Form1
     Friend WithEvents ValidarCorreoElectronicoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CalculoDeInteresCompuestoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ContraseñaSeguraToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PIAToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CalculadoraCientíficaAvanzadaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ConversiónDeSistemasNuméricosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SimuladorDeSemáforoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SistemaDeClasificaciónDeEdadToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CalculadoraDeSalarioConBonificacionesToolStripMenuItem As ToolStripMenuItem
 End Class

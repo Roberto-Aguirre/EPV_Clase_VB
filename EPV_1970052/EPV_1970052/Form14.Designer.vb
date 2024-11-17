@@ -122,8 +122,9 @@ Partial Class Form14
         Me.Controls.Add(Me.lblBase)
         Me.Controls.Add(Me.txtBase)
         Me.Controls.Add(Me.lblText)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form14"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form14"
         Me.ResumeLayout(False)
         Me.PerformLayout()

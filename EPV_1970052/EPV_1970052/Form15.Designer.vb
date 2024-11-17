@@ -175,6 +175,7 @@ Partial Class Form15
         Me.Controls.Add(Me.lblText)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form15"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form15"
         Me.ResumeLayout(False)
         Me.PerformLayout()

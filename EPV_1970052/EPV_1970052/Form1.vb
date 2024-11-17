@@ -26,31 +26,56 @@
 
     Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
         Form7.Show()
-        Me.Close()
+        Me.Hide()
     End Sub
 
     Private Sub CalculoAñoBisiestoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalculoAñoBisiestoToolStripMenuItem.Click
         Form8.Show()
-        Me.Close()
+        Me.Hide()
     End Sub
 
     Private Sub CalculoDeIMCToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalculoDeIMCToolStripMenuItem.Click
         Form9.Show()
-        Me.Close()
+        Me.Hide()
     End Sub
 
     Private Sub ValidarCorreoElectronicoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ValidarCorreoElectronicoToolStripMenuItem.Click
         Form10.Show()
-        Me.Close()
+        Me.Hide()
     End Sub
 
     Private Sub CalculoDeInteresCompuestoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalculoDeInteresCompuestoToolStripMenuItem.Click
         Form11.Show()
-        Me.Close()
+        Me.Hide()
     End Sub
 
     Private Sub ContraseñaSeguraToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ContraseñaSeguraToolStripMenuItem.Click
         Form12.Show()
-        Me.Close()
+        Me.Hide()
+    End Sub
+
+    Private Sub CalculadoraCientíficaAvanzadaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalculadoraCientíficaAvanzadaToolStripMenuItem.Click
+        Form13.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub ConversiónDeSistemasNuméricosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConversiónDeSistemasNuméricosToolStripMenuItem.Click
+        Form14.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub SimuladorDeSemáforoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SimuladorDeSemáforoToolStripMenuItem.Click
+        Form15.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub SistemaDeClasificaciónDeEdadToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SistemaDeClasificaciónDeEdadToolStripMenuItem.Click
+        Form16.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub CalculadoraDeSalarioConBonificacionesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalculadoraDeSalarioConBonificacionesToolStripMenuItem.Click
+        Form17.Show()
+        Me.Hide()
     End Sub
 End Class
