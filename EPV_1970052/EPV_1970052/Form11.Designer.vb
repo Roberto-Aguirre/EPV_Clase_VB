@@ -20,9 +20,8 @@ Partial Class Form11
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.lblNumero = New System.Windows.Forms.Label()
         Me.txtCapital = New System.Windows.Forms.TextBox()
         Me.lblText = New System.Windows.Forms.Label()
@@ -35,16 +34,6 @@ Partial Class Form11
         Me.lblTotal = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Button1
-        '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(754, 278)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(134, 54)
-        Me.Button1.TabIndex = 13
-        Me.Button1.Text = "Menu"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'lblNumero
         '
@@ -158,7 +147,6 @@ Partial Class Form11
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtInteres)
         Me.Controls.Add(Me.btnVerificar)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lblNumero)
         Me.Controls.Add(Me.txtCapital)
         Me.Controls.Add(Me.lblText)

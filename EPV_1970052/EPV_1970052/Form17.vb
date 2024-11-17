@@ -1,25 +1,52 @@
 ﻿Public Class Form17
-    Private Sub lblText_Click(sender As Object, e As EventArgs) Handles lblText.Click
+
+    Private Sub Form17_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 
+    'Años de servicio
+    'caso 1: bonificacion de 5%
+    'caso 2: bonificacion de 10%
+    'caso 3: bonificacion de 15%
+
+    'Descuento
+    'caso 1: 5%,
+    'caso 2: 8%,
+    'caso 3: 12%
     Private Sub btnVerificar_Click(sender As Object, e As EventArgs) Handles btnVerificar.Click
 
-    End Sub
+        Dim anyoServicio = Double.Parse(txtServicio.Text)
+        Dim salario = Double.Parse(txtSalario.Text)
+        Dim bonificacion, descuento As Double
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
-    End Sub
+        If anyoServicio <= 0 Then
 
-    Private Sub lblNumero_Click(sender As Object, e As EventArgs) Handles lblNumero.Click
+            bonificacion = 0.05
+            descuento = 5
 
-    End Sub
+            lblBonificacionResultado.Text = $"De ${bonificacion * salario}"
+            lblDescuentoRespuesta.Text = $"De {descuento}%"
 
-    Private Sub txtContrasenia_TextChanged(sender As Object, e As EventArgs) Handles txtContrasenia.TextChanged
+        ElseIf anyoServicio >= 1 And anyoServicio <= 5 Then
 
-    End Sub
+            bonificacion = 0.1
+                descuento = 8
 
-    Private Sub lblResultado_Click(sender As Object, e As EventArgs) Handles lblResultado.Click
+            lblBonificacionResultado.Text = $"De ${bonificacion * salario}"
+            lblDescuentoRespuesta.Text = $"De {descuento}%"
+
+        Else
+                bonificacion = 0.15
+                descuento = 12
+            lblBonificacionResultado.Text = $"De ${bonificacion * salario}"
+            lblDescuentoRespuesta.Text = $"De {descuento}%"
+
+        End If
+
+        If True Then
+        End If
+
 
     End Sub
 End Class
